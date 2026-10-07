@@ -238,7 +238,7 @@ async function handleLogin(e: React.FormEvent<HTMLFormElement>) {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="you@example.com"
                 required
-                className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none focus:border-blue-500"
+                className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500 "
               />
             </div>
 
@@ -253,7 +253,7 @@ async function handleLogin(e: React.FormEvent<HTMLFormElement>) {
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Enter your password"
                 required
-                className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none focus:border-blue-500"
+                className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500 "
               />
             </div>
 
