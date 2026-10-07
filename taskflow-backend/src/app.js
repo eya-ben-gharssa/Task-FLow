@@ -7,7 +7,10 @@ app.use(express.json());
 import cors from "cors";
 
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin: [
+    "http://localhost:3000",
+    "https://task-flow-green-xi.vercel.app"
+  ]
 }));
 app.use("/api/tasks",taskRoutes);
 app.use("/api/auth", authRoutes);
